@@ -1,0 +1,56 @@
+.taskAbout {
+    width: 45%;
+}
+
+.taskTitle {
+    color: #333;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 33px;
+}
+
+.pomodoroInfo {
+    padding-left: 15px;
+    list-style: disc;
+    color: #333;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.input {
+    padding: 20px;
+    width: 55%;
+    height: 40px;
+    background: #F4F4F4;
+    border: none;
+    margin: 25px 0;
+    display: block;
+}
+
+.addTask {
+    padding: 12px 25px;
+    align-items: center;
+    background: #A8B64F;
+    color: #fff;
+    transition: .3s ease;
+}
+
+.addTask:hover {
+    background: #899441;
+}
+
+.taskList {
+    padding: 20px 0;
+
+}
+
+.time {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 17px;
+    color: #999;
+}

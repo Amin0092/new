@@ -1,0 +1,7 @@
+.taskTracker {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    grid-gap: 0 40px;
+    align-items: start;
+}

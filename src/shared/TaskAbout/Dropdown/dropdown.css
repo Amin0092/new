@@ -1,0 +1,39 @@
+.dropdown {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #e4e4e4;
+    grid-gap: 10px;
+    margin: 10px 0 0 10px;
+    z-index: 5;
+    transform: translateX(-50%);
+}
+
+.button {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 5px;
+}
+
+.text {
+    color: #999;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 17px;
+}
+
